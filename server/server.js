@@ -25,3 +25,5 @@ app.get('/todos')
 app.listen(3000, () => {
   console.log('App running on 3000');
 })
+
+module.exports = {app};
